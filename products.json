@@ -1,0 +1,50 @@
+[
+  {
+    "name" : "T-Shirt",
+    "price" : "200",
+    "description" : "Lorem ipsum dolor",
+    "shine" : "70",
+    "rarity" : "2",
+    "color" : "red",
+    "faces" : "6",
+    "canPurchase" : "false",
+    "soldOut" : "false",
+    "images": [
+              {
+                "full" : "images/1.gif",
+                "thumb" : "images/1.gif"
+              },
+              {
+                "full" : "images/1.gif",
+                "thumb" : "images/1.gif"
+              }
+            ],
+    "reviews" : [
+                {
+                  "stars" : "3",
+                  "body" : "Great product!",
+                  "author" : "thom@example.com",
+                  "createdOn" : "1397490980837"
+                }
+
+             ]
+  },
+  {
+    "name" : "Dodecahedron",
+    "price" : "100",
+    "description" : "Lorem ipsum",
+    "shine" : "90",
+    "rarity" : "1",
+    "color" : "blue",
+    "faces" : "2",
+    "canPurchase" : "true",
+    "soldOut" : "false",
+    "images" : [
+              {
+                "full" : "images/1.gif",
+                "thumb" : "images/1.gif"
+              }
+            ],
+    "reviews" : []
+  }
+]

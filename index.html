@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="store">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <a href="#/">Home</a> <a href="#/other-page">other page</a>
+    
+    <div ng-view></div>
+
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="angular-route.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="products.js"></script>
+    <style>
+      .ng-valid.ng-dirty{
+        border-color: green;
+      }
+
+      .ng-invalid.ng-dirty{
+        border-color: red;
+      }
+    </style>
+
+  </body>
+</html>
